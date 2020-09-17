@@ -23,4 +23,4 @@ def testbot(request):
         channel='C019CD1JL7Q',
         text="Testbot Recieved!")
     
-    return HttpResponse(f'<p>Token {token}</p>')
+    return HttpResponse(f'Its 80 degrees right now.', status=200)
